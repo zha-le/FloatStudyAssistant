@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#20000000"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Web Explorer"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/go_back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="4dp"
+            android:text="@string/back" />
+
+        <EditText
+            android:id="@+id/url_box"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textSize="12dp"
+            android:imeOptions="actionGo"
+            android:hint="URL"
+            android:inputType="textUri"/>
+
+        <Button
+            android:id="@+id/go_to_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="4dp"
+            android:text="Go" />
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="4dp"
+            android:text="X" />
+
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="240dp"
+        android:layout_height="300dp">
+
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

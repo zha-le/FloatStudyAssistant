@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#40000000"
+    android:elevation="4dp"
+    android:alpha="0.6"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <!-- 列表项 -->
+    <TextView
+        android:id="@+id/select_zone_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="选区"
+        android:textColor="@color/white"
+        android:textAppearance="?attr/textAppearanceListItemSmall" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/ask_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="问问"
+        android:textColor="@color/white"
+        android:textAppearance="?attr/textAppearanceListItemSmall" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/web_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="浏览"
+        android:textColor="@color/white"
+        android:textAppearance="?attr/textAppearanceListItemSmall" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/close_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="退出"
+        android:textColor="@color/white"
+        android:textAppearance="?attr/textAppearanceListItemSmall" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/hide_btn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="藏匿"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textAppearance="?attr/textAppearanceListItemSmall" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/get_text_btn"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?android:attr/selectableItemBackground"-->
+<!--        android:padding="8dp"-->
+<!--        android:textSize="16sp"-->
+<!--        android:text="提字"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textAppearance="?attr/textAppearanceListItemSmall" />-->
+
+</LinearLayout>

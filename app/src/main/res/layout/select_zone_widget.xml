@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:alpha="0.6"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <com.example.floatwindowdemo.CustomView.RectangleDrawableConstraintLayout
+        android:id="@+id/root_container"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="#407F7F7F"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contentOutput"
+            android:layout_width="wrap_content"
+            android:maxWidth="240dp"
+            android:layout_height="wrap_content"
+            android:background="#40000000"
+            android:padding="4dp"
+            android:text="框选提取文字"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/copy_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:alpha="0.8"
+            android:padding="2dp"
+            android:text="关闭"
+            app:layout_constraintBottom_toBottomOf="@+id/copy_btn"
+            app:layout_constraintEnd_toStartOf="@+id/copy_btn"
+            app:layout_constraintTop_toTopOf="@+id/copy_btn"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/copy_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:alpha="0.8"
+            android:padding="2dp"
+            android:text="复制"
+            android:layout_marginTop="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/ask_btn"
+            android:layout_width="60dp"
+            android:layout_height="36dp"
+            android:alpha="0.8"
+            android:padding="2dp"
+            android:text="问AI"
+            app:layout_constraintBottom_toBottomOf="@+id/copy_btn"
+            app:layout_constraintStart_toEndOf="@+id/copy_btn"
+            app:layout_constraintTop_toTopOf="@+id/copy_btn"
+            android:layout_marginStart="8dp"/>
+
+    </com.example.floatwindowdemo.CustomView.RectangleDrawableConstraintLayout>
+
+</FrameLayout>

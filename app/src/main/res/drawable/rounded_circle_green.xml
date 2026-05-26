@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- 设置为渐变 -->
+    <gradient
+        android:type="radial"
+        android:gradientRadius="40dp"
+        android:startColor="#D0FFD0"
+        android:endColor="#FFFFFF"
+        android:centerX="50%"
+        android:centerY="50%" />
+    <!-- 定义大小 -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+</shape>

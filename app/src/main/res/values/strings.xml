@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AI助学</string>
+    <string name="tips">
+        提示:\n
+        请授权写入剪切板权限, 并将软件省电策略改为无限制\n
+        双击小白球可快速关闭窗口\n
+        推荐在控制中心添加快速启动入口\n
+        藏匿模式由本页面的防截屏开关决定是否禁用\n
+        藏匿模式下透明度可见度会降低，直到检测到打开隐私窗口\n
+        藏匿模式下检测到隐私窗口，悬浮球将表现为绿色\n
+        长按悬浮球3秒可直接退出藏匿模式。
+    </string>
+    <string name="back">&lt;</string>
+    <string name="description_in_xml">此权限用于AI助学拾取和分析当前活动上下文，以便为用户提供更好的服务</string>
+</resources>
